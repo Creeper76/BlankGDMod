@@ -12,6 +12,7 @@ cd "%MOD_NAME%"
 echo|set /p="%MOD_NAME:"=%">env\MOD_NAME
 rmdir /S /Q ".git"
 del /F /Q "README.md"
+del /F /Q "CreateABlankMod.bat"
 
 @echo on
 ```
